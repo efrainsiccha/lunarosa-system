@@ -22,7 +22,7 @@ export const Header = () => {
         </Link>
 
         {/* Nav: visible solo en pantallas grandes */}
-        <nav className="hidden lg:flex gap-6 uppercase text-sm font-light absolute left-1/2 -translate-x-1/2">
+        <nav className="hidden lg:flex gap-6 uppercase text-lg font-light absolute left-1/2 -translate-x-1/2">
           {NAV_ITEMS.map(({ name, path }) => (
             <Link
               className="text-white/50 hover:text-white transition-colors duration-500"
@@ -36,8 +36,8 @@ export const Header = () => {
 
         {/* Botones: visibles solo en pantallas grandes */}
         <div className="hidden lg:flex gap-2">
-          <Button text="Iniciar Sesión" />
-          <Button text="Registrarse" />
+          <Button text="Iniciar Sesión" className="text-lg"/>
+          <Button text="Registrarse" className="text-lg"/>
         </div>
       </div>
     </header>
