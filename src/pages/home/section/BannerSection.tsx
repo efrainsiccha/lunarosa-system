@@ -24,7 +24,7 @@ export default function BannerSection() {
         <div className="sm:w-full flex justify-center">
           <Button
             text="Reservar ahora"
-            className="px-4 py-1 text-xs sm:px-6 sm:py-2 sm:text-sm md:px-8 md:text-lg"
+            className="px-4 py-1 text-xs sm:px-6 sm:py-2 sm:text-sm md:px-8 md:text-base"
           />
         </div>
       </div>

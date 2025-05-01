@@ -55,7 +55,7 @@ export const BurgerMenu = () => {
                     key={name}
                     to={path}
                     onClick={() => setIsOpen(false)}
-                    className="text-white/50 hover:text-white transition-colors text-xl"
+                    className="text-white/50 hover:text-white transition-colors text-base"
                   >
                     {name}
                   </Link>
@@ -64,8 +64,8 @@ export const BurgerMenu = () => {
 
               {/* Auth buttons */}
               <div className="flex gap-2 pt-4 justify-center">
-                <Button text="Iniciar Sesión" className="text-lg"/>
-                <Button text="Registrarse" className="text-lg"/>
+                <Button text="Iniciar Sesión" className="text-base"/>
+                <Button text="Registrarse" className="text-base"/>
               </div>
             </motion.div>
           </>
