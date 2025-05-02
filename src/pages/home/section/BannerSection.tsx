@@ -8,6 +8,7 @@ export default function BannerSection() {
         src={bannerImage}
         alt="Banner de Lunarossa"
         className="absolute inset-0 w-full h-full object-cover"
+        loading="eager"
       />
 
       {/* Capa oscura */}
