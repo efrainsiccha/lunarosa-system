@@ -1,11 +1,10 @@
-import bannerImage from "@/assets/images/banner.webp";
 import { Button } from "../../../components/ui/Button";
 
 export default function BannerSection() {
   return (
     <section className="relative w-full h-[200px] sm:h-[300px] md:h-[400px] lg:h-[600px] xl:h-[85vh] overflow-hidden">
       <img
-        src={bannerImage}
+        src="/lunarosa-system/banner.webp"
         alt="Banner de Lunarossa"
         className="absolute inset-0 w-full h-full object-cover"
         loading="eager"
